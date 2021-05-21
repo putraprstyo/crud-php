@@ -1,0 +1,48 @@
+.hasil{
+    margin-top: -13em;
+    margin-left: 30em;
+}
+.pesan{
+    margin-top: 0em;
+    margin-left: 30em;
+}
+table, th, td{
+    margin: auto;
+    margin-top: 3em;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr td .btn-delete{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+table tr td .btn-edit{
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+table tr td .btn-edit:hover{
+    background-color: black;
+}
+table tr td .btn-delete:hover{
+    background-color: black;
+}
+.btn-update{
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 40em;
+}
+.btn-update:hover{
+    background-color: black;
+}
